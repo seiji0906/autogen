@@ -10,3 +10,8 @@ source venv/bin/activate
  pip install pyautogen
 
 
+# OAI_CONFIG_LIST.jsonにAPI情報を記述
+
+
+# プログラムの実行
+python main.py
