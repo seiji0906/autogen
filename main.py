@@ -17,6 +17,8 @@ llm_config = {
    "temperature": 0.7,
 }
 
+print(f"llm_config: {llm_config}")
+
 user_proxy = autogen.UserProxyAgent(
     name="User_proxy",
     system_message="A human admin.",
